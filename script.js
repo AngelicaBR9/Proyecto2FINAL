@@ -47,3 +47,16 @@ const openImgJAVA = () => {
     const elementjava = document.getElementById("javaflotante");
     elementjava.classList.remove("hidden");
 }
+
+
+
+const btnflotFotos = document.getElementById(`btnVFotos`)
+const openfotos = () => {
+    const elementfotos = document.getElementById("fotosflotante");
+    elementfotos.classList.add("hidden");
+}
+const imgdesplieguefotos = document.getElementById(`imagenpasatiempo`)
+const openImgFOTOS = () => {
+    const elementfotos = document.getElementById("fotosflotante");
+    elementfotos.classList.remove("hidden");
+}
